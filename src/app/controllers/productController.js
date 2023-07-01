@@ -1,6 +1,5 @@
 const Product = require('../models/Product');
 const Producttype = require('../models/Producttype');
-const User = require('../models/User');
 
 class ProductController {
 

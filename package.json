@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- 
   "engines": {
     "node": "14.x"
   },
@@ -21,7 +20,8 @@
     "mongoose": "^7.1.0",
     "mongoose-delete": "^0.5.4",
     "mongoose-slug-updater": "^3.3.0",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "6.6.3"
   },
   "devDependencies": {
     "morgan": "^1.10.0",

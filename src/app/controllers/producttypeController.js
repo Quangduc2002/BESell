@@ -1,5 +1,4 @@
 const Producttype = require('../models/Producttype');
-
 const { request } = require('express');
 
 class ProducttypeController {
@@ -10,7 +9,6 @@ class ProducttypeController {
         .then(latesCourse => {
             // id tự tăng
           req.body._id = latesCourse._id + 1;
-          console.log(latesCourse)
           const producttype = new Producttype(req.body);
           producttype.save()
               .then(() => res.status(200).json())

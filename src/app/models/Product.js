@@ -4,7 +4,6 @@ const mongooseDelete = require('mongoose-delete');
 const Schema = mongoose.Schema;
 const ProductSchema = new Schema(
     {
-      // _id: {type: Number},
       TenSp: { type: String, require: true },
       Image: { type: String },
       ChatLieu: { type: String },
@@ -22,7 +21,6 @@ const ProductSchema = new Schema(
         type: mongoose.Schema.Types.Number,
         ref: "Producttype",
       },
-
     },
     {
       // _id: false,
